@@ -28,7 +28,7 @@
   },
   "dependencies":{
      "rimraf": "^2.5.1",
-     "async": "^1.5.2",
+     "async": "^1.5.2"
     },
   "devDependencies": {
     "dir-compare": "0.0.2",
