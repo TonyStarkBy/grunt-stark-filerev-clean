@@ -1,0 +1,47 @@
+{
+  "name": "grunt-stark-filerev-clean",
+  "description": "A Grunt task plugin to clean old files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/TonyStarkBy/grunt-stark-filerev-clean",
+  "author": {
+    "name": "Tony Stark",
+    "email": "tony@stark-studio.by"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TonyStarkBy/grunt-stark-filerev-clean"
+  },
+  "bugs": {
+    "url": "https://github.com/TonyStarkBy/grunt-stark-filerev-clean/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/TonyStarkBy/grunt-stark-filerev-clean/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies":{
+     "rimraf": "^2.5.1",
+     "async": "^1.5.2",
+    },
+  "devDependencies": {
+    "dir-compare": "0.0.2",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
